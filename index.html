@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section class="container">
+        <header>
+            Let recruiters find you
+        </header>
+        <form action="#" class="form">
+
+            <div class="input-box">
+                <label >Full Name</label>
+                <input type="text" id="name" placeholder="Enter your full name"/>
+                <span class="error"></span>
+            </div>
+
+            <div class="input-box">
+                <label >Email ID
+                    <span class="subText">(We'll send you relevant jobs in your mail)</span>
+                </label>
+                <input type="text" id="email" placeholder="Enter Email ID"/>
+                <span class="error"></span>
+            </div>
+
+            <div class="input-box">
+                <label >Password
+                    <span class="subText">(Minimum 6 characters required)</span>
+                </label>
+                <input type="text" id="password" placeholder="Create password to login"/>
+                <span class="error"></span>
+            </div>
+
+            <div class="input-box">
+                <label >Mobile Number
+                    <span class="subText">(Recruiters will call you on this number)</span>
+                </label>
+                <input type="text" id="number" placeholder="e.g. 9123456780"/>
+                <span class="error"></span>
+            </div>
+
+
+            <div class="input-box city">
+                <label>Current City</label>
+                <dic class="column">
+                    <div class="select-box">
+                        <select >
+                            <option>Mention the city you live in</option>
+                            <option>Delhi</option>
+                            <option>Mumbai</option>
+                            <option>Ahmedabad</option>
+                            <option>Bangalore</option>
+                            <option>Hyderabad</option>
+                            <option>Kolkata</option>
+                            <option>Surat</option>
+                            <option>Pune</option>
+                            <option>Chennai</option>
+                        </select>
+                    </div>
+                </dic>
+                <span class="error"></span>
+            </div>
+
+
+            <div class="work-status-box">
+                <h3 >Work Status</h3>
+                <div class="work-status-option">
+                    <div class="work-status">
+                        <input type="radio" id="check-experienced" name="work-status" checked/>
+                        <label for="check-experienced">Experienced </label>
+                    </div>
+                    <div class="work-status">
+                        <input type="radio" id="check-fresher" name="work-status"/>
+                        <label for="check-fresher">Fresher </label>
+                    </div>
+                </div>
+            </div>
+
+            <button id="register">Register Now</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
